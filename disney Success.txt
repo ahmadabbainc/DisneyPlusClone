@@ -1,0 +1,24 @@
+<<<<<<<<<<<<<<<<<<<<<< DISNEY CLONE >>>>>>>>>>>>>>>>>>>>>>>>>>
+       DAY1
+1.  Initialising React app ✔
+2.  Aplying global style ✔
+3.  Start Login Componenet (HERO) ✔
+4.  Setting up Firebase ✔
+5.  Google authentication ( get stuck ) 🏁
+       DAY2
+6.  Authentication Popup succeded by rabuiding project in firebase
+    and correct the spelling in the onClick button ✔
+7.  Storing users info using Redux ✔
+8.  Setting up redux boiler plete ✔
+9.  Login to the page successfull ✔
+10. LogOut Successfully done ✔
+11. Strat working on the Home (HERO) component
+       DAY3
+12. Successfully finish the banner corousel ✔
+13. Successfully finish the Viewer card ✔
+14. Start working on the recomended for you ✍
+       DAY 4
+15.Subscription ends run out of data🙆‍♀️...
+16. Went to Abuja and started on 20th-Oct-22
+17. Finish on Sunday 23-Oct-22
+<<<<<<<<<<<<<<     https://disney-clone-584fb.web.app       >>>>>>>>>>>>>>
