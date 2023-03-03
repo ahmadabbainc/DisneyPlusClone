@@ -2,12 +2,12 @@ import firebase from "firebase";
 
 const firebaseConfig = {
   apiKey: "AIzaSyB6E9dND5IMQ2l83ErPfQQIbbfiOuXlvm8",
-  authDomain: "disney-clone-584fb.firebaseapp.com",
+  authDomain: "https://disneyplus-three.vercel.app",
   projectId: "disney-clone-584fb",
   storageBucket: "disney-clone-584fb.appspot.com",
   messagingSenderId: "865837689666",
   appId: "1:865837689666:web:317ea02abf1b07482b76db",
-  measurementId: "G-FYJXSYV98R"
+  measurementId: "G-FYJXSYV98R",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);

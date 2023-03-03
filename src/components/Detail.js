@@ -48,7 +48,7 @@ const Detail = (props) => {
           </AddList>
           <GroupWatch>
             <div>
-              <img src="/images/group-icon.png" alt="" />
+              <img src="/images/group-icon.PNG" alt="" />
             </div>
           </GroupWatch>
         </Controls>
@@ -204,6 +204,7 @@ const GroupWatch = styled.div`
     width: 40px;
     background: rgb(0, 0, 0);
     border-radius: 50%;
+    background: white;
 
     img {
       width: 100%;

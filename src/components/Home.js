@@ -7,12 +7,12 @@ import Recommends from "./Recommends";
 import Trendings from "./Trending";
 import Viewers from "./Viewers";
 import { useDispatch, useSelector } from "react-redux";
-import db from '../firebase';
+import db from "../firebase";
 import { setMovies } from "../features/movies/movieSlice";
 import { selectUserName } from "../features/user/userSlice";
+import Developer from "./Developer";
 
 const Home = (props) => {
-  
   const dispatch = useDispatch();
   const userName = useSelector(selectUserName);
   let recommends = [];
@@ -63,6 +63,7 @@ const Home = (props) => {
       <NewDisney />
       <Originals />
       <Trendings />
+      <Developer />
     </Container>
   );
 };
@@ -74,7 +75,7 @@ const Container = styled.main`
   display: block;
   top: 72px;
   padding: 0 calc(3.5vw + 5px);
-  
+
   &:after {
     background: url("/images/home-background.png") center center / cover
       no-repeat fixed;
